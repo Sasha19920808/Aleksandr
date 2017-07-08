@@ -1,0 +1,196 @@
+html{
+    width: 900px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    min-width: 970px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    height: 42px;
+    width: 100%;
+    background-image: url(screenshots/header/img1.png);
+}
+.header #logo{
+    margin-left: 15%;
+    margin-top: 5px;
+    float: left;
+}
+
+
+ ul li{
+    display: inline;
+    float: left;
+     color: white;
+     font-size: 12px;
+     margin-right: 20px;
+     margin-top: 15px;
+     font-size: 900;
+    
+}
+a:hover{
+    color: aqua;
+}
+ul{
+    margin-left: 23%; 
+}
+#tel{
+    margin-top: 10px;
+    margin-left: 3%;
+    float: left
+}
+.number{
+    padding-top: 12px;
+    float: left;
+    margin-left: 1%;
+    font-size: 12px;
+    
+}
+.skype{
+    margin-top: 10px;
+    margin-left: 1%;
+}
+.mail{
+    margin-left:1%;
+}
+.wrapper{
+    padding-bottom: ;
+    margin-bottom: 2px;
+   
+    width: auto;
+    height: 100px;
+}
+.button{
+    width: 110px;
+    height: 19px;
+    border: 1px solid black;
+    color: black;
+    position: relative;
+    margin-left: 44.3%;
+    object-position: bottom;
+    top: 225px;
+    display: block;
+     
+}
+.sample{
+    position: absolute;
+  
+    
+}
+.footer{
+    width: 970px;
+    margin-bottom: 10%;
+    height: 530px;
+    border: 1px solid black;
+    background-color: #DFEBE9;
+}
+.first{}
+#left{
+    margin-top: 100px;
+    float: left;
+    margin-left: 150px;
+    visibility: hidden;
+}
+#first{
+     margin-top: 20px;
+    float: left;
+    margin-left: px;
+    
+    
+}
+#right{
+    margin-top: 100px;
+    float: left;
+    margin-left: 0px;
+    visibility: hidden;
+}
+   #butt{
+        margin-top: 130px;
+        margin-left: -160px;
+       float: left;
+       visibility: hidden;
+}
+.first:hover #left{
+    visibility: visible;
+}
+.first:hover #right{
+    visibility: visible;
+}
+.first:hover #butt{
+    visibility: visible;
+}
+#left1{
+        margin-top: 130px;
+    float: left;
+    margin-left: -20px;
+    visibility: hidden;
+    
+}
+#second{
+     margin-top: 30px;
+    float: left;
+}
+#right1{
+     margin-top: 130px;
+    float: left;
+    margin-left: 0px;
+    visibility: hidden;
+}
+#butt1{
+     margin-top: 170px;
+        margin-left: -170px;
+       float: left;
+    visibility: hidden;
+}
+.second:hover #left1{
+    visibility: visible;
+}
+.second:hover #right1{
+    visibility: visible;
+}
+.second:hover #butt1{
+    visibility: visible;
+}
+#left2{
+       margin-top: 100px;
+    float: left;
+    margin-left: -20px;
+    visibility: hidden;
+}
+#third{
+     margin-top: 20px;
+    float: left;
+}
+#right2{
+      margin-top: 100px;
+    float: left;
+    margin-left: -10px;
+    visibility: hidden;
+}
+#butt2{
+    margin-top: 130px;
+        margin-left: -160px;
+       float: left;
+    visibility: hidden;
+}
+.third:hover #left2{
+    visibility: visible;
+}
+.third:hover #right2{
+    visibility: visible;
+}
+.third:hover #butt2{
+    visibility: visible;
+}
+#text{
+    margin-top:270px ;
+    margin-left: 370px
+}
