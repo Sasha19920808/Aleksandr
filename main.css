@@ -26,7 +26,7 @@ a{
 }
 
 
- ul li{
+.header  ul li{
     display: inline;
     float: left;
      color: white;
@@ -39,7 +39,7 @@ a{
 a:hover{
     color: aqua;
 }
-ul{
+.header ul{
     margin-left: 23%; 
 }
 #tel{
@@ -88,11 +88,13 @@ ul{
 .footer{
     width: 970px;
     margin-bottom: 10%;
-    height: 530px;
+    height: 350px;
     border: 1px solid black;
     background-color: #DFEBE9;
+    margin-top: 0;
+    padding-top: 0;
 }
-.first{}
+
 #left{
     margin-top: 100px;
     float: left;
@@ -102,7 +104,7 @@ ul{
 #first{
      margin-top: 20px;
     float: left;
-    margin-left: px;
+
     
     
 }
@@ -191,6 +193,76 @@ ul{
     visibility: visible;
 }
 #text{
-    margin-top:270px ;
+    margin-top:30px ;
     margin-left: 370px
 }
+.a{
+    
+    margin-top: 245px;
+    height: 20px;
+    width:972px;
+   display: block;
+}
+.menu2{
+    width: 972px;
+    height: 190px;
+    background-color: #DEEAE8;
+
+}
+.menu2 ul li{
+    color: black;
+   display: block;
+    float: none;
+   
+    padding-top: 20px;
+    font: bold;
+    font-size: 11px
+   
+}
+.menu2  ul{
+   float: left;
+    margin-left: 10px
+    
+    
+}
+.fast{
+    float: left;
+    margin-left: 100px;
+    margin-top: 17px;
+}
+.all{
+    float: left;
+    margin-top: 48px;
+    margin-left: -20px
+}
+.dedicated{
+   float: left;
+    margin-top: 84px;
+    margin-left: -20px 
+}
+.line{
+    margin-left: 30px;
+    float: left;
+}
+#menu3{
+    margin-left: 10px;
+}
+.nda{
+    float: left;
+    
+    margin-top: 17px;
+}
+.Quality{
+    float: left;
+    margin-top: 48px;
+    margin-left: -19px;
+    
+}
+.moneyback{
+   float: left;
+    margin-top: 84px;
+   margin-left: -19px;
+}
+.line1{
+    margin-left: 30px;
+    float: left;
